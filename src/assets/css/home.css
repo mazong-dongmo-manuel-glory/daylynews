@@ -1,0 +1,98 @@
+#home {
+    min-height: calc(100vh - 5vh); /* Pour occuper la hauteur restante de l'écran */
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#home .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-size: contain;
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+#home .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    flex-wrap: wrap;
+}
+
+#home .cards .card {
+    cursor: pointer;
+    margin: 10px 2%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+
+    overflow: hidden;
+}
+
+#home .cards h1 {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+}
+
+#home .cards span {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+#home .form {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    margin-top: 2%;
+    width: 100%;
+    ; /* Limite la largeur du formulaire */
+    text-align: center; /* Centrer le contenu du formulaire */
+}
+
+#home .form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Prendre toute la largeur disponible */
+}
+
+#home .form input {
+    outline: none;
+    width: 300px; /* Prendre toute la largeur du conteneur parent */
+    max-width: 400px; /* Limite la largeur de l'input */
+    margin: 2% 0;
+    height: 50px;
+}
+
+button {
+    outline: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}

@@ -1,0 +1,35 @@
+#weatherdetails{
+    background-color: black;
+    overflow-y: hidden;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+#weatherdetails .return-btn{
+    align-self: flex-start;
+    display: block;
+}
+#weatherdetails .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+#weatherdetails .content div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+#weatherdetails .content div span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
